@@ -9,7 +9,7 @@ import ru.trialtest.pages.BaseRouter;
 
 public class BaseTest {
 
-    private final String authorizationPageUrl = "C://Users//ganzo//IdeaProjects//TrialTest//qa-test.html";
+    private final String authorizationPageUrl = System.getProperty("user.dir") + "/qa-test.html";
     protected RandomHelper randomHelper = new RandomHelper();
     public BaseRouter baseRouter = new BaseRouter();
 
